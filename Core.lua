@@ -1,12 +1,10 @@
---// ShadowByte Game Loader
+--// ShadowByte Core Game List
 
--- Game List (Add more game IDs and script URLs)
 local GameList = {
     [123456789] = "https://yourhost.com/script1.lua",  -- Replace with actual game IDs and script URLs
     [987654321] = "https://yourhost.com/script2.lua"
 }
 
--- Notification Function
 local function notify(title, text, duration)
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = title;
@@ -15,12 +13,11 @@ local function notify(title, text, duration)
     })
 end
 
--- Main Execution
 local currentGame = game.PlaceId
 
 if GameList[currentGame] then
     notify("ShadowByte", "Supported Game Detected! Loading script...", 3)
-    task.wait(1) -- Smooth execution delay
+    task.wait(1) -- Smooth delay for better execution
     local success, err = pcall(function()
         loadstring(game:HttpGet(GameList[currentGame], true))()
     end)
