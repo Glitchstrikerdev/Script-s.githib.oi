@@ -1,7 +1,7 @@
 --// ShadowByte Loader
 
 -- Load the core game list
-local coreURL = "https://yourhost.com/gamelist.lua" -- Replace with your core game list URL
+local coreURL = "https://raw.githubusercontent.com/Glitchstrikerdev/Script-s.githib.oi/refs/heads/main/Core.lua" -- Replace with your core game list URL
 
 local function notify(title, text, duration)
     game:GetService("StarterGui"):SetCore("SendNotification", {
