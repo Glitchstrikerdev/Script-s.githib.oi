@@ -1,8 +1,8 @@
 --// ShadowByte Core Game List
 
 local GameList = {
-    [123456789] = "https://raw.githubusercontent.com/Glitchstrikerdev/Script-s.githib.oi/refs/heads/main/Game-Support/8737899170.lua",  -- Replace with actual game IDs and script URLs
-    [987654321] = "https://yourhost.com/script2.lua"
+    [8737899170] = "https://raw.githubusercontent.com/Glitchstrikerdev/Script-s.githib.oi/refs/heads/main/Game-Support/8737899170.lua",  -- List
+    [18901165922] = "https://raw.githubusercontent.com/Glitchstrikerdev/Script-s.githib.oi/refs/heads/main/Game-Support/18901165922.lua"
 }
 
 local function notify(title, text, duration)
