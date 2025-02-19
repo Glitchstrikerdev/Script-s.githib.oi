@@ -2,7 +2,8 @@
 
 local GameList = {
     [8737899170] = "https://raw.githubusercontent.com/Glitchstrikerdev/Script-s.githib.oi/refs/heads/main/Game-Support/8737899170.lua",  -- List
-    [18901165922] = "https://raw.githubusercontent.com/Glitchstrikerdev/Script-s.githib.oi/refs/heads/main/Game-Support/18901165922.lua"
+    [18901165922] = "https://raw.githubusercontent.com/Glitchstrikerdev/Script-s.githib.oi/refs/heads/main/Game-Support/18901165922.lua",
+    [89377518329073] = "https://raw.githubusercontent.com/Glitchstrikerdev/Script-s.githib.oi/refs/heads/main/Game-Support/89377518329073.lua"
 }
 
 local function notify(title, text, duration)
